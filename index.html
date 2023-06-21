@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Logarítmica</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<header id="cabecalho">
+    <a href="index.html"> Principal</a>
+    <a href="videoaula.html"> Video aula</a>
+    <a href="exercicios.html"> Exercicios</a>
+</header>
+
+<body>
+
+    <main id="conteudo">
+        <div id="resumo">
+            A função logarítmica de base a é definida <br>
+            como f (x) = loga x, com a real, positivo <br>
+            e a ≠ 1. A função inversa da função <br>
+            logarítmica é a função exponencial.
+        </div>
+        <form>
+            <div>
+                <label for="xMin">x Mínimo</label>
+                <input type="text" id="xMin">
+            </div>
+
+            <div>
+                <label for="xMax">x Máximo</label>
+                <input type="text" id="xMax">
+            </div>
+            <div>
+                <button id="calcular">
+                    Calcular
+                </button>
+            </div>
+        </form>
+
+        <div id="grafico">
+            <canvas id="myChart" class="chart"></canvas>
+        </div>
+
+
+        <div id="links">
+            <a href="https://brasilescola.uol.com.br/matematica/fracao.htm">Fração </a>
+            <a href="https://brasilescola.uol.com.br/o-que-e/matematica/o-que-e-potenciacao.htm">Potenciação </a>
+            <a href="https://brasilescola.uol.com.br/matematica/funcao-logaritmica.htm">Material de apoio </a>
+        </div>
+    </main>
+    <script src="scriptgraf.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+</body>
+<footer>
+    Criado pelos usuários de linux
+</footer>
+
+</html>
